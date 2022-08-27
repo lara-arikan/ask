@@ -1,7 +1,6 @@
 # Amplitude-shift keying for in-bore wireless transmission of MRI data
 
-![1](https://user-images.git! [3](https://user-images.githubusercontent.com/58052954/187008264-12994de9-41bb-43f5-9d84-5b843e740f1a.jpg)
-hubusercontent.com/58052954/187008078-d949163c-7649-4bff-8e2d-28350a062a1a.jpg) 
+![1](https://user-images.githubusercontent.com/58052954/187008078-d949163c-7649-4bff-8e2d-28350a062a1a.jpg) ![2](https://user-images.githubusercontent.com/58052954/187008264-12994de9-41bb-43f5-9d84-5b843e740f1a.jpg)
 
 Image right: 12-bit word 111111000000 with start and stop bits 1,0 is serialized and sent out in LVDS format (original and inverted copy) out of the two cables attached to little brown square on the top left corner. (No other encoding). It is recovered by the deserializer (pictured above; small purple square on top edge) with its start and stop bits stripped away. The result (1111100000) is displayed in hexadecimal on the DE-10 Lite FPGA.
 
